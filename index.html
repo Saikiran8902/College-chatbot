@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IARE - Hyderabad</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"><span><img src="https://www.iare.ac.in/images/logo.png" width="150px" alt=""></span></a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="https://www.iare.ac.in/?q=pages/about-us" target="_blank">About Us</a>
+        <a href="#service">Departments</a>
+        <a href="https://www.iare.ac.in/?q=pages/campus-life" target="_blank">Campus Life</a>
+        <a href="https://www.iare.ac.in/?q=pages/placements" target="_blank">Placements</a>
+    </nav>
+
+    <div id="menu-bars" class="fas fa-bars"></div>
+
+    
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="swiper-container home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="https://www.iare.ac.in/sites/default/files/RBP_1125%20_r.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="https://www.iare.ac.in/sites/all/themes/iare/images/IARE_Campus.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="https://www.iare.ac.in/sites/default/files/IMG_0602%20%28Copy%29_0.JPG" alt=""></div>
+            <div class="swiper-slide"><img src="https://www.iare.ac.in/sites/default/files/IMG_0328%20%28Copy%29.JPG" alt=""></div>
+            <div class="swiper-slide"><img src="https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/4204/2018/5/9/Institute-of-Aeronautical-Engineering-Dundigal-1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="https://www.iare.ac.in/sites/all/themes/iare/images/iare_about.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- service section starts  -->
+<div class="chat-bar-collapsible">
+    <button id="chat-button" type="button" class="collapsible">College Bot
+        <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+    </button>
+
+    <div class="content">
+        <div class="full-chat-block">
+            <!-- Message Container -->
+            <div class="outer-container">
+                <div class="chat-container">
+                    <!-- Messages -->
+                    <div id="chatbox">
+                        <h5 id="chat-timestamp"></h5>
+                        <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                    </div>
+
+                    <!-- User input box -->
+                    <div class="chat-bar-input-block">
+                        <div id="userInput">
+                            <input id="textInput" class="input-box" type="text" name="msg"
+                                placeholder="Tap 'Enter' to send a message">
+                            <p></p>
+                        </div>
+
+                        <div class="chat-bar-icons">
+                            <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                onclick="heartButton()"></i>
+                             <i id="chat-icon" style="color:rgb(0, 106, 255);" class="fa fa-fw fa-paper-plane"
+                                    onclick="sendButton()"></i>
+                                    <!-- <button onclick="sendButton()">Send</button> -->
+                        </div>
+                    </div>
+
+                    <div id="chat-bar-bottom">
+                        <p></p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<section class="service" id="service" style="margin-top: 40px; margin-bottom:60px;">
+
+    <h1 class="heading"> Our <span><b>Departments</b></span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="https://www.iare.ac.in/?q=pages/computer-science-and-engineering" target="_blank">
+            <i class="fas fa-desktop"></i>
+            <h3>Computer Science and Engineering</h3>
+            </a>
+        </div>
+
+        <div class="box">
+            <a href="https://www.iare.ac.in/?q=pages/cse-artificial-intelligence-and-machine-learning" target="_blank">
+            <i class="fas fa-robot"></i>
+            <h3>Computer Science and Engineering (AI & ML)</h3>
+            </a>            
+        </div>
+
+        <div class="box">
+            <a href="https://www.iare.ac.in/?q=pages/cse-data-science" target="_blank">
+            <i class="fas fa-microchip"></i>
+            <h3>Computer Science and Engineering (Data Science)</h3>
+            </a>
+            
+        </div>
+
+        <div class="box">
+            <a href="https://www.iare.ac.in/?q=pages/computer-science-and-information-technology" target="_blank">
+            <i class="fas fa-laptop"></i>
+            <h3>Computer Science and Information Technology</h3>
+            </a>        
+        </div>
+
+        <div class="box">
+            <a href="https://www.iare.ac.in/?q=pages/information-technology" target="_blank">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Information Technology</h3>
+        </a>
+        
+        </div>
+
+        <div class="box">
+            <a href="https://www.iare.ac.in/?q=pages/aeronautical-engineering" target="_blank">
+            <i class="fas fa-plane-departure"></i>
+            <h3>Aeronautical Engineering</h3>
+            </a>
+        
+        </div>
+
+        <div class="box">
+            <a href="https://www.iare.ac.in/?q=pages/electronics-and-communication-engineering" target="_blank">
+            <i class="fas fa-lightbulb"></i>
+            <h3>Electronics and Communication Engineering</h3>
+            </a>
+        
+        </div>
+
+        <div class="box">
+            <a href="https://www.iare.ac.in/?q=pages/electrical-and-electronics-engineering" target="_blank">
+            <i class="fas fa-bolt"></i>
+            <h3>Electronics and Electrical Engineering</h3>
+            </a>
+        
+        </div>
+
+        <div class="box">
+            <a href="https://www.iare.ac.in/?q=pages/mechanical-engineering" target="_blank">
+                
+            <i class="fas fa-wrench"></i>
+            <h3>Mechanical Engineering</h3>
+            </a>
+        
+        </div>
+
+        <div class="box">
+            <a href="https://www.iare.ac.in/?q=pages/civil-engineering" target="_blank">
+            <i class="fas fa-hard-hat"></i>
+            <h3>Civil Engineering</h3>
+            </a>
+        
+        </div>
+
+        <div class="box">
+            <a href="https://www.iare.ac.in/?q=pages/master-of-business-administration" target="_blank">
+            <i class="fas fa-book"></i>
+            <h3>Master of Business Administration</h3>
+            </a>
+        
+        </div>
+
+        <div class="box">
+            <a href="https://www.iare.ac.in/?q=pages/master-of-business-administration" target="_blank">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>Masters of Technology</h3>
+            </a>
+        
+        </div>
+
+    </div>
+
+</section>
+
+<!-- service section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about" style="margin-top: 60px; margin-bottom:60px;">
+
+<h1 class="heading"><span>Tribute to </span> Mokshagundam Vishveshwarayya </h1>
+
+<div class="row" >
+
+    <div class="image">
+        <img src="https://assets.sentinelassam.com/h-upload/2022/09/10/1600x960_386095-rag.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <!-- <h3>we will give a very special celebration for you</h3> -->
+        <p>
+            Sir Mokshagundam Vishveshwaraya, KCIE FASc, often referred by his initials, MV, was the first Indian civil engineer, statesman and the 19th Diwan of Mysore, 
+            serving from 1912 to 1918.His birthday, 15th September, is celebrated as Engineers' Day in India, Sri Lanka and Tanzania in his memory. He was the Chief 
+            Engineer of Krishna Raja Sagara dam in the north-west suburb of Mysuru city, Laxmi Talav Dam near Kolhapur in south-west Maharashtra, and also served as one of the Chief Engineers of the flood protection system for the city of Hyderabad.
+        </p>
+        <a href="https://en.wikipedia.org/wiki/M._Visvesvaraya" class="btn" target="_blank">Know More</a>
+    </div>
+
+</div>
+
+</section>
+
+
+ 
+ 
+ 
+ 
+ 
+<section class="price" id="price">
+
+    <h1 class="heading"> All you need about <span>CSE</span> </h1>
+
+    <div class="box-container" id = "cse_links">
+
+        <div class="box">
+            <h3 class="title">Regulations</h3>
+            <a href="https://www.iare.ac.in/sites/default/files/NewRegulationsSyllabi/UG20/B.TECH_CSE_UG20_ACADEMIC_REGULATIONS_AND_COURSE_CATALOG_2020-2021.pdf" class="btn" target="_blank">check out</a>
+        </div>
+
+        <div class="box">
+            <h3 class="title">Syllabus</h3>
+            <a href="https://www.iare.ac.in/sites/default/files/NewRegulationsSyllabi/UG20/B.TECH_CSE_UG20_ACADEMIC_REGULATIONS_AND_COURSE_CATALOG_2020-2021.pdf" class="btn" target="_blank">check out</a>
+        </div>
+
+        <div class="box">
+            <h3 class="title">Academic Calendar</h3>
+            <a href="https://www.iare.ac.in/sites/default/files/AcademicCalendar/B.TECH_V_AND_VI_SEMESTERS_ACADEMIC_CALENDAR_2022-2023.pdf" class="btn" target="_blank">check out</a>
+        </div>
+
+        <div class="box">
+            <h3 class="title">College Brochure</h3>
+            <a href="https://www.iare.ac.in/IARE_2022-23_Brochure.pdf" class="btn" target="_blank">check out</a>
+        </div>
+    </div>
+
+    <h1 class="heading"> Our <span>Portals</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3 class="title">Samvidha</h3>
+            <h3 class="amount">CMS</h3>
+            <a href="https://samvidha.iare.ac.in/" class="btn" target="_blank">check out</a>
+        </div>
+
+        <div class="box">
+            <h3 class="title">Akanksha</h3>
+            <h3 class="amount">LMS</h3>
+            <a href="https://akanksha.iare.ac.in/" class="btn" >check out</a>
+        </div>
+
+        <div class="box">
+            <h3 class="title">e-ExamDesk</h3>
+            <h3 class="amount">EMP</h3>
+            <a href="https://eexamdesk.iare.ac.in/" class="btn" >check out</a>
+        </div>
+
+        <div class="box">
+            <h3 class="title">Build-IT</h3>
+            <h3 class="amount">Coding</h3>
+            <a href="https://www.iare.ac.in/?q=basicpage/buildit-go-lab" class="btn" >check out</a>
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>Contact</span> Us </h1>
+
+    <form action="">
+        <div class="inputBox">
+            <input type="text" placeholder="name">
+            <input type="email" placeholder="email">
+        </div>
+        <div class="inputBox">
+            <input type="number" placeholder="number">
+            <input type="text" placeholder="subject">
+        </div>
+        <textarea name="" placeholder="your message" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" class="btn">
+    </form>
+
+</section>
+
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>CSE and Allied Departments</h3>
+            <a href="https://www.iare.ac.in/?q=pages/computer-science-and-engineering" target="_blank"> <i class="fas fa-map-marker-alt"></i> CSE </a>
+            <a href="https://www.iare.ac.in/?q=pages/cse-artificial-intelligence-and-machine-learning" target="_blank"> <i class="fas fa-map-marker-alt"></i> CSE (AI & ML)</a>
+            <a href="https://www.iare.ac.in/?q=pages/cse-data-science" target="_blank"> <i class="fas fa-map-marker-alt"></i> CSE (Data Science) </a>
+            <a href="https://www.iare.ac.in/?q=pages/computer-science-and-information-technology" target="_blank"> <i class="fas fa-map-marker-alt"></i> CSIT </a>
+            <a href="https://www.iare.ac.in/?q=pages/information-technology" target="_blank"> <i class="fas fa-map-marker-alt"></i> Information Technology </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> About Us </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Departments </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Campus Life </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> 8886234501 </a>
+            <a href="#"> <i class="fas fa-phone"></i> 8886234502 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> support@iare.ac.in </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i>IARE, Dundigal, Hyderabad - 500043 </a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/IAREOFFICIAL"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="https://twitter.com/@aeronauticalof"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="https://instagram.com/iare_hyderabad"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fschool%2F2712285%2Fadmin%2F"> <i class="fab fa-linkedin"></i> linkedin </a>
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span><b>Team 16</b></span> for WebGeeks Contest</div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- theme toggler  -->
+
+<div class="theme-toggler">
+
+    <div class="toggle-btn">
+        <i class="fas fa-cog"></i>
+    </div>
+
+    <h3>choose color</h3>
+
+    <div class="buttons">
+        <div class="theme-btn" style="background: #3867d6;"></div>
+        <div class="theme-btn" style="background: #f7b731;"></div>
+        <div class="theme-btn" style="background: #ff0033;"></div>
+        <div class="theme-btn" style="background: #20bf6b;"></div>
+        <div class="theme-btn" style="background: #fa8231;"></div>
+        <div class="theme-btn" style="background: #FC427B;"></div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="static/scripts/responses.js"></script>
+<script src="static/scripts/chat.js"></script>
+</body>
+</html>
